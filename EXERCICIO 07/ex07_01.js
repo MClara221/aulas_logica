@@ -1,0 +1,18 @@
+let filmes = ['Meu primeiro amor', 'Pets', 'Meninas malvadas', 'A princesa e o sapo', 'Branca de neve', 'Barbie', 'Esposa de mentirinha']
+console.log(filmes[1])
+console.log(filmes[4])
+filmes[6] = 'Sexta-feira muito louca'
+console.log(filmes)
+filmes.splice(6,0,'Lagoa azul')
+console.log(filmes)
+filmes.splice(5,0,'The eras tour')
+filmes.shift()
+filmes.pop()
+console.log(filmes)
+filmes.slice(1,4)
+console.log(filmes)
+filmes.slice(4,7)
+console.log(filmes)
+console.log(filmes.length)
+filmes.reverse()
+console.log(filmes)
