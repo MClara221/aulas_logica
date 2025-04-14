@@ -42,9 +42,15 @@ console.log(PI)
 
 //no prompt sempre recebemos uma string
 nome = prompt ('Qual é o seu nome?')
+//usando o parseInt ou parseFloat converte os valores recebidos
+// que vem como string para int ou float 
 idade = parseInt (prompt ("Qual é a sua idade?"))
 peso = parseFloat(prompt('Qual seu peso?'))
 console.log (`Seu nome é ${nome}, você tem ${idade}, você pesa ${peso}`) 
+// Valida o tipo de variavel
 console.log(typeof(peso))
 console.log(idade + peso)
+// Apos a conversão dos valores é possível realizar 
+//Calculos matemáticos
 console.log(idade+peso)
+// Exe

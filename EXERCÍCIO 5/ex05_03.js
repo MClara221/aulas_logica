@@ -25,3 +25,4 @@ qtdPar++
 console.log(`Soma dos pares digitados: ${somaPar} quantidade de par: ${qtdPar}`)
 console.log(`Soma dos impares digitados:${somaImpar} quantidade de impares: ${qtdImpar}`)
 
+

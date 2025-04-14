@@ -34,10 +34,10 @@ case '/':
     console.log(`Resultado: ${n1 / n2}`)
 break 
 case '**':
-    console.log(`Resultado ${nr1 ** nr}`)
+console.log(`Resultado ${nr1 ** nr}`)
 break 
-default 
-    console.log('Operação inválida')
+default: 
+console.log('Operação inválida')
 }
 
 //Verificar qual letra é igual 
@@ -51,13 +51,14 @@ switch(letra){
     case 'U':
     console.log('Vogal')
     break
-    default 
+    default: 
     console.log('Consoante')
 }
 
 //Converter a nota em numero para a letra 
 let nota = parseInt(prompt('Digite a nota do aluno:'))
-
+//O switch (true) verifica quais expressões dentro do case retornam true(verdade) ou seja comparamos as expressões booleanas 
+//Quando usamos switch(variavel), o switch compara exatamente o valor da variavel com os cases definidos
 switch(true){
     case nota >= 90 :
     console.log('Nota A')
@@ -71,5 +72,7 @@ case nota >= 70 :
     case nota >= 60:
     console.log('Nota D')
     break 
-    default
+    default:
     console.log('Nota E')
+
+}

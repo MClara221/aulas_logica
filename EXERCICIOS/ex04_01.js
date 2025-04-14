@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')()
 
 let n1 = Number(prompt('Digite um número de 1 a 7'))
-switch(n1){
+switch(true){
 case 1:
     console.log('Domingo')
 break

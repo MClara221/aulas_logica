@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')()
 
-let contador = 1;
-while(contador <= 10){
+let contador = 10;
+while(contador <= 1){
 console.log(`O contador é ${contador}`)
 contador = contador + 1 
 }
