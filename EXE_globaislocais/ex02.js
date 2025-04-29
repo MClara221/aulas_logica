@@ -1,10 +1,13 @@
 let dolar = 5.67 
 let euro = 6.43
 
-function conversao(n1){
-multi = (n1 * dolar) * euro
+function converterMoeda(valorReais){
+let valorDolar = valorReais / dolar
+let valorEuro = valorReais / euro
+console.log(`R$ ${valorReais.toFixed(2)} equivale a:`)
+console.log(`R$ ${valorDolar.toFixed(2)}`)
+console.log(`R$ ${valorEuro.toFixed(2)}`)
 }
-conversao()
-conversao()
-conversao()
-console.log =(multi)
+converterMoeda(100)
+converterMoeda(80)
+converterMoeda(60)
